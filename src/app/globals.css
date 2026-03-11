@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme {
+  --color-primary: #2B6BFF;
+  --color-secondary: #FF6B00;
+  --color-brand-blue: #2B6BFF;
+  --color-brand-orange: #FF6B00;
+  --color-brand-dark: #111111;
+
+  --font-sans: "Inter", var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+body {
+  background: #ffffff !important;
+  color: #111111;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+/* Ensure white background for the whole app as requested */
+html {
+  background-color: #ffffff;
+}
