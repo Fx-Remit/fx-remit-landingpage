@@ -5,7 +5,7 @@ import Image from 'next/image';
 export const HowItWorks = () => {
 
     return (
-        <section id="how-it-works" className="py-24 bg-white overflow-hidden relative">
+        <section id="how-it-works" className="pt-1 pb-24 md:py-24 bg-white overflow-hidden relative">
             <div className="max-w-[1600px] mx-auto px-6">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-20 gap-6 px-4">
                     <div className="max-w-2xl text-left">
