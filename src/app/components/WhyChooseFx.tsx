@@ -10,7 +10,7 @@ export const WhyChooseFx = () => {
 
             <div className="relative z-10 w-full">
                 {/* Header Section */}
-                <div className="flex flex-col md:flex-row justify-between mb-8 gap-8 max-w-[1450px] mx-auto px-6">
+                <div className="flex flex-col md:flex-row justify-between mb-8 gap-8 max-w-[1650px] mx-auto px-6">
                     <div className="max-w-2xl">
                         <h3 className="text-[#FF6600] font-bold text-sm tracking-widest uppercase mb-4">Borderless Remittances</h3>
                         <h2 className="text-4xl md:text-6xl font-extrabold text-gray-800 leading-[1.1]">
