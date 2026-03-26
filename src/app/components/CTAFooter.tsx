@@ -4,44 +4,71 @@ import Image from 'next/image';
 
 export const CTAFooter = () => {
     return (
-        <section id="waitlist" className="py-24 bg-white">
+        <section id="waitlist" className="py-24 bg-white overflow-hidden font-inter">
             <div className="container mx-auto px-6">
-                <div className="relative bg-primary rounded-[3rem] p-12 md:p-24 overflow-hidden group">
-                    {/* Background coins */}
-                    <div className="absolute right-0 bottom-0 w-full h-full md:w-2/3 h-1/2 md:h-full opacity-60 md:opacity-100 translate-y-1/4 md:translate-y-0 translate-x-1/4">
+                <div className="relative bg-[#2261FE] rounded-[3rem] p-8 md:p-24 overflow-hidden min-h-[650px] md:min-h-[500px] flex flex-col justify-center">
+
+                    {/* Background SVG pattern (Text/Texture) */}
+                    <div className="absolute inset-0 z-0 opacity-100 pointer-events-none">
                         <Image
-                            src="/coins.svg"
-                            alt="Crypto Wealth"
+                            src="/side3-light.svg"
+                            alt="Background side text"
                             fill
-                            className="object-contain object-bottom md:object-right transition-transform duration-1000 group-hover:scale-110"
+                            className="object-cover opacity-80"
                         />
                     </div>
 
-                    {/* Background pattern */}
-                    <div className="absolute inset-0 opacity-10 mix-blend-overlay">
-                        <Image src="/rainbow.svg" alt="Pattern" fill className="object-cover" />
+                    {/* Desktop Coin Image */}
+                    <div
+                        className="absolute z-0 opacity-100 pointer-events-none hidden md:block"
+                        style={{
+                            width: '700px',
+                            top: '125px',
+                            left: '800px'
+                        }}
+                    >
+                        <Image
+                            src="/coins.svg"
+                            alt="Crypto Wealth Desktop"
+                            width={920}
+                            height={518}
+                            className="object-contain"
+                        />
                     </div>
 
-                    <div className="relative z-10 max-w-2xl text-white">
-                        <h2 className="text-5xl md:text-7xl font-black mb-12 leading-tight">
-                            Join our waitlist <br /> today
+                    {/* Mobile Coin Image with specific specs */}
+                    <div
+                        className="absolute z-0 opacity-100 pointer-events-none block md:hidden"
+                        style={{
+                            width: '482px',
+                            height: '269px',
+                            top: '370px',
+                            left: '-100px'
+                        }}
+                    >
+                        <Image
+                            src="/coins.svg"
+                            alt="Crypto Wealth Mobile"
+                            width={482}
+                            height={269}
+                            className="object-contain"
+                        />
+                    </div>
+
+                    {/* Content */}
+                    <div className="relative z-10 max-w-4xl -top-32 -left-2 md:-top-12 md:-left-8">
+                        <h2 className="text-[#F5F5F5] text-[28px] md:text-[56px] leading-[100%] font-medium mb-10 md:mb-40">
+                            Join our waitlist today
                         </h2>
 
-                        <div className="space-y-12">
-                            <div className="flex flex-col sm:flex-row gap-4">
-                                <input
-                                    type="email"
-                                    placeholder="Enter your email address"
-                                    className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl px-6 py-4 flex-1 text-white placeholder:text-blue-100 outline-none focus:ring-2 focus:ring-secondary transition-all"
-                                />
-                                <button className="bg-secondary hover:bg-[#E65A00] text-white font-bold py-4 px-10 rounded-xl transition-all shadow-xl shadow-orange-500/20 active:scale-95 whitespace-nowrap">
-                                    Join waitlist
-                                </button>
-                            </div>
-
-                            <p className="text-blue-100 text-sm max-w-xs leading-relaxed">
+                        <div className="flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-10">
+                            <p className="text-[#D1D1D1] text-[16px] md:text-[18px] leading-[150%] font-normal max-w-md">
                                 Join our waitlist to get first hand information immediately our app launches.
                             </p>
+
+                            <button className="bg-[#FF6600] hover:bg-[#E65A00] text-white font-bold py-4 px-8 md:py-5 md:px-10 rounded-2xl transition-all shadow-xl shadow-orange-500/10 active:scale-95 whitespace-nowrap text-[16px] md:text-[18px]">
+                                Join waitlist
+                            </button>
                         </div>
                     </div>
                 </div>
