@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export const WhyChooseFx = () => {
     return (
-        <section className="py-12 md:py-24 bg-gray-50 relative overflow-hidden min-h-[950px] flex items-center">
+        <section id="why-us" className="py-12 md:py-24 bg-gray-50 relative overflow-hidden min-h-[950px] flex items-center">
             {/* Background decoration */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] pointer-events-none opacity-20 bg-blue-50/50 rounded-full blur-3xl"></div>
 
@@ -18,11 +18,11 @@ export const WhyChooseFx = () => {
                             different chains,<br />
                             any destination.
                         </h2>
-                    </div>
-                    <div className="md:text-right flex flex-col items-start md:items-end justify-start pt-6">
-                        <p className="text-gray-500 max-w-sm mb-8 text-lg leading-relaxed">
+                        <p className="text-gray-500 text-lg md:text-xl max-w-xl leading-relaxed mt-6">
                             Fx Remit bridges the gap between blockchain networks and traditional payments rails.
                         </p>
+                    </div>
+                    <div className="flex flex-col items-start md:items-end justify-end">
                         <button className="bg-[#2261FE] hover:bg-blue-700 text-white font-bold py-4 px-12 rounded-xl transition-all shadow-[0_10px_30px_rgba(37,99,235,0.2)] hover:shadow-[0_15px_40px_rgba(37,99,235,0.3)] hover:-translate-y-1">
                             Start Sending
                         </button>
@@ -76,10 +76,26 @@ export const WhyChooseFx = () => {
                                     <div className="mb-0 md:mb-1 flex-shrink-0">
                                         <Image src="/Chain Flexibility.svg" alt="Chain Icon" width={75} height={75} className="object-contain responsive-icon" />
                                     </div>
-                                    <h4 className="text-2xl md:text-[28px] font-bold text-[#1C1C1C] leading-none mb-0">Chain Flexibility</h4>
+                                    <h4 style={{
+                                        fontFamily: 'Inter, sans-serif',
+                                        fontWeight: 500,
+                                        fontSize: '32px',
+                                        lineHeight: '100%',
+                                        color: '#1C1C1C',
+                                        margin: 0
+                                    }}>
+                                        Chain Flexibility
+                                    </h4>
                                 </div>
                                 <div className="w-full md:w-[220px] text-left mt-auto md:mt-0">
-                                    <p className="text-[#3D3D3D] leading-relaxed text-sm md:text-base">
+                                    <p style={{
+                                        fontFamily: "'SF Pro Rounded', system-ui, sans-serif",
+                                        fontWeight: 400,
+                                        fontSize: '20px',
+                                        lineHeight: '100%',
+                                        color: '#5D5D5D',
+                                        margin: 0
+                                    }}>
                                         Send from Ethereum, Solana, Celo, Base and many more.
                                     </p>
                                 </div>
@@ -111,10 +127,26 @@ export const WhyChooseFx = () => {
                                     <div className="mb-0 md:mb-1 flex-shrink-0">
                                         <Image src="/Automated Routing.svg" alt="Routing Icon" width={75} height={75} className="object-contain responsive-icon" />
                                     </div>
-                                    <h4 className="text-2xl md:text-[28px] font-bold text-white leading-none mb-0">Automated Routing</h4>
+                                    <h4 style={{
+                                        fontFamily: 'Inter, sans-serif',
+                                        fontWeight: 500,
+                                        fontSize: '32px',
+                                        lineHeight: '100%',
+                                        color: '#F5F5F5',
+                                        margin: 0
+                                    }}>
+                                        Automated Routing
+                                    </h4>
                                 </div>
                                 <div className="w-full md:w-[220px] text-left mt-auto md:mt-0">
-                                    <p className="text-white/90 leading-relaxed text-sm md:text-base">
+                                    <p style={{
+                                        fontFamily: "'SF Pro Rounded', system-ui, sans-serif",
+                                        fontWeight: 400,
+                                        fontSize: '20px',
+                                        lineHeight: '100%',
+                                        color: '#E7E7E7',
+                                        margin: 0
+                                    }}>
                                         Smart algorithms find the fastest, path for every transaction.
                                     </p>
                                 </div>
@@ -146,10 +178,26 @@ export const WhyChooseFx = () => {
                                     <div className="mb-0 md:mb-1 flex-shrink-0">
                                         <Image src="/Universal Delivery.svg" alt="Global Icon" width={75} height={75} className="object-contain responsive-icon" />
                                     </div>
-                                    <h4 className="text-2xl md:text-[28px] font-bold text-white leading-none mb-0">Universal Delivery</h4>
+                                    <h4 style={{
+                                        fontFamily: 'Inter, sans-serif',
+                                        fontWeight: 500,
+                                        fontSize: '32px',
+                                        lineHeight: '100%',
+                                        color: '#F5F5F5',
+                                        margin: 0
+                                    }}>
+                                        Universal Delivery
+                                    </h4>
                                 </div>
                                 <div className="w-full md:w-[220px] text-left mt-auto md:mt-0">
-                                    <p className="text-white/90 leading-relaxed text-sm md:text-base">
+                                    <p style={{
+                                        fontFamily: "'SF Pro Rounded', system-ui, sans-serif",
+                                        fontWeight: 400,
+                                        fontSize: '20px',
+                                        lineHeight: '100%',
+                                        color: '#E7E7E7',
+                                        margin: 0
+                                    }}>
                                         Funds arrive directly into bank accounts or mobile wallets.
                                     </p>
                                 </div>
@@ -181,11 +229,27 @@ export const WhyChooseFx = () => {
                                     <div className="mb-0 md:mb-1 flex-shrink-0">
                                         <Image src="/Easy Onboarding.svg" alt="Onboarding Icon" width={75} height={75} className="object-contain responsive-icon" />
                                     </div>
-                                    <h4 className="text-2xl md:text-[28px] font-bold text-[#1C1C1C] leading-none mb-0">Easy Onboarding</h4>
+                                    <h4 style={{
+                                        fontFamily: 'Inter, sans-serif',
+                                        fontWeight: 500,
+                                        fontSize: '32px',
+                                        lineHeight: '100%',
+                                        color: '#1C1C1C',
+                                        margin: 0
+                                    }}>
+                                        Easy Onboarding
+                                    </h4>
                                 </div>
                                 <div className="w-full md:w-[220px] text-left mt-auto md:mt-0">
-                                    <p className="text-[#3D3D3D] leading-relaxed text-sm md:text-base">
-                                        Recipient gets local currency, they don&apos;t need wallers or blockchain experience.
+                                    <p style={{
+                                        fontFamily: "'SF Pro Rounded', system-ui, sans-serif",
+                                        fontWeight: 400,
+                                        fontSize: '20px',
+                                        lineHeight: '100%',
+                                        color: '#5D5D5D',
+                                        margin: 0
+                                    }}>
+                                        Recipient gets local currency, they don&apos;t need wallets or blockchain experience.
                                     </p>
                                 </div>
                             </div>
