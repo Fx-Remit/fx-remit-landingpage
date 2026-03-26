@@ -8,7 +8,7 @@ export const FAQ = () => {
     const [open03, setOpen03] = useState(false);
 
     return (
-        <section className="py-24 bg-white overflow-hidden font-inter">
+        <section id="faq" className="py-24 bg-white overflow-hidden font-inter">
             <div className="container mx-auto px-6">
                 {/* Header Section */}
                 <div className="text-center mb-16">

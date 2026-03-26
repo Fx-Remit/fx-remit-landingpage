@@ -18,7 +18,20 @@ export const HowItWorks = () => {
                         </p>
                     </div>
                     <div className="flex flex-col items-start md:items-end gap-4">
-                        <button className="bg-[#2261FE] hover:bg-[#1a4fd6] text-white font-bold py-4 px-10 rounded-2xl transition-all shadow-xl shadow-blue-500/25 flex items-center gap-2 group">
+                        <button
+                            className="bg-[#2261FE] hover:bg-[#1a4fd6] text-white font-bold transition-all shadow-xl shadow-blue-500/25 flex items-center justify-center gap-2 group"
+                            style={{
+                                width: '210px',
+                                height: '62px',
+                                borderRadius: '7px',
+                                paddingTop: '20px',
+                                paddingBottom: '20px',
+                                paddingLeft: '10px',
+                                paddingRight: '10px',
+                                opacity: 1,
+                                gap: '10px'
+                            }}
+                        >
                             Start sending money
                         </button>
                     </div>
@@ -49,11 +62,11 @@ export const HowItWorks = () => {
                                 <h4 style={{
                                     fontFamily: 'Inter, sans-serif',
                                     fontWeight: 500,
-                                    fontSize: '28px',
+                                    fontSize: '32px',
                                     lineHeight: '100%',
                                     color: '#1C1C1C',
                                     margin: 0
-                                }} className="md:text-[32px]">
+                                }}>
                                     Open app
                                 </h4>
                             </div>
@@ -61,11 +74,11 @@ export const HowItWorks = () => {
                                 <p style={{
                                     fontFamily: "'SF Pro Rounded', system-ui, sans-serif",
                                     fontWeight: 400,
-                                    fontSize: '16px',
-                                    lineHeight: '1.2',
-                                    color: '#3D3D3D',
+                                    fontSize: '20px',
+                                    lineHeight: '100%',
+                                    color: '#5D5D5D',
                                     margin: 0
-                                }} className="md:text-[18px]">
+                                }}>
                                     Connect with your Farcaster or MiniPay wallet in one click.
                                 </p>
                             </div>
@@ -80,12 +93,27 @@ export const HowItWorks = () => {
                             <div className="relative z-10 flex flex-col md:flex-row justify-start md:justify-center items-start md:items-end gap-6 md:gap-8 h-full md:pb-6">
                                 <div className="flex flex-col gap-4 md:gap-10 w-full md:w-[220px] text-left">
                                     <div>
-                                        <Image src="/recipient.svg" alt="" width={60} height={60} className="md:w-[75px] md:h-[75px]" />
+                                        <Image src="/recipient.svg" alt="" width={75} height={75} className="md:w-[75px] md:h-[75px]" />
                                     </div>
-                                    <h4 className="text-2xl md:text-3xl font-bold text-[#1C1C1C] leading-none">Recipient Details</h4>
+                                    <h4 style={{
+                                        fontFamily: 'Inter, sans-serif',
+                                        fontWeight: 500,
+                                        fontSize: '32px',
+                                        lineHeight: '100%',
+                                        color: '#1C1C1C',
+                                        margin: 0
+                                    }}>
+                                        Recipient Details
+                                    </h4>
                                 </div>
                                 <div className="w-full md:w-[220px] text-left">
-                                    <p className="text-[#3D3D3D] text-base md:text-lg leading-relaxed">
+                                    <p style={{
+                                        fontFamily: "'SF Pro Rounded', system-ui, sans-serif",
+                                        fontWeight: 400,
+                                        fontSize: '20px',
+                                        lineHeight: '100%',
+                                        color: '#5D5D5D',
+                                    }}>
                                         Add the recipient&apos;s bank account or mobile money(MOMO) number. Enter the amount in crypto.
                                     </p>
                                 </div>
@@ -97,12 +125,26 @@ export const HowItWorks = () => {
                             <div className="relative z-10 flex flex-col md:flex-row justify-start md:justify-center items-start md:items-end gap-6 md:gap-8 h-full md:pb-6">
                                 <div className="flex flex-col gap-4 md:gap-10 w-full md:w-[220px] text-left">
                                     <div>
-                                        <Image src="/choose crypto.svg" alt="" width={60} height={60} className="md:w-[75px] md:h-[75px]" />
+                                        <Image src="/choose crypto.svg" alt="" width={75} height={75} className="md:w-[75px] md:h-[75px]" />
                                     </div>
-                                    <h4 className="text-2xl md:text-3xl font-bold text-white leading-none">Choose crypto</h4>
+                                    <h4 style={{
+                                        fontFamily: 'Inter, sans-serif',
+                                        fontWeight: 500,
+                                        fontSize: '32px',
+                                        lineHeight: '100%',
+                                        color: '#F5F5F5',
+                                    }}>
+                                        Choose crypto
+                                    </h4>
                                 </div>
                                 <div className="w-full md:w-[190px] text-left">
-                                    <p className="text-white/90 text-base md:text-lg leading-relaxed">
+                                    <p style={{
+                                        fontFamily: "'SF Pro Rounded', system-ui, sans-serif",
+                                        fontWeight: 400,
+                                        fontSize: '20px',
+                                        lineHeight: '100%',
+                                        color: '#E7E7E7',
+                                    }}>
                                         Select choice of tokens from across chains integrated on our platform.
                                     </p>
                                 </div>
@@ -125,11 +167,10 @@ export const HowItWorks = () => {
                                 <h4 style={{
                                     fontFamily: 'Inter, sans-serif',
                                     fontWeight: 500,
-                                    fontSize: '28px',
+                                    fontSize: '32px',
                                     lineHeight: '100%',
                                     color: '#1C1C1C',
-                                    margin: 0
-                                }} className="md:text-[32px]">
+                                }}>
                                     Send instantly
                                 </h4>
                             </div>
@@ -137,12 +178,11 @@ export const HowItWorks = () => {
                                 <p style={{
                                     fontFamily: "'SF Pro Rounded', system-ui, sans-serif",
                                     fontWeight: 400,
-                                    fontSize: '16px',
-                                    lineHeight: '1.2',
-                                    color: '#3D3D3D',
-                                    margin: 0
-                                }} className="md:text-[18px]">
-                                    Funds arrive in <span className="font-bold">minutes in local currency</span> after approval.
+                                    fontSize: '20px',
+                                    lineHeight: '100%',
+                                    color: '#5D5D5D',
+                                }}>
+                                    Review the exchange rate and fees. Approve the transaction from your wallet, funds arrive in <span style={{ fontWeight: 700, color: '#3D3D3D' }}>minutes in local currency.</span>
                                 </p>
                             </div>
                         </div>

@@ -100,23 +100,25 @@ export function HeaderHero() {
 
                                 {/* Desktop Navigation */}
                                 <nav className="flex space-x-12">
-                                    <a href="#how-it-works" className="font-normal text-center" style={{ fontFamily: 'var(--font-inter)', fontSize: '18px', color: '#050505BF' }}>
+                                    <a href="#how-it-works" className="font-normal text-center" style={{ fontFamily: 'Inter', fontSize: '18px', lineHeight: '150%', color: '#050505BF' }}>
                                         How it Works
                                     </a>
-                                    <a href="#why-us" className="font-normal text-center" style={{ fontFamily: 'var(--font-inter)', fontSize: '18px', color: '#050505BF' }}>
-                                        About
+                                    <a href="#why-us" className="font-normal text-center" style={{ fontFamily: 'Inter', fontSize: '18px', lineHeight: '150%', color: '#050505BF' }}>
+                                        Why Us
                                     </a>
-                                    <a href="#contact" className="font-normal text-center" style={{ fontFamily: 'var(--font-inter)', fontSize: '18px', color: '#050505BF' }}>
-                                        Team
+                                    <a href="#security" className="font-normal text-center" style={{ fontFamily: 'Inter', fontSize: '18px', lineHeight: '150%', color: '#050505BF' }}>
+                                        Security
+                                    </a>
+                                    <a href="#faq" className="font-normal text-center" style={{ fontFamily: 'Inter', fontSize: '18px', lineHeight: '150%', color: '#050505BF' }}>
+                                        FAQ
                                     </a>
                                 </nav>
 
                                 {/* Desktop CTA Button */}
                                 <div>
                                     <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="bg-white text-blue-600 border border-blue-600 px-6 py-2 rounded-lg text-sm font-medium hover:bg-blue-50 transition-colors inline-block"
+                                        href="#waitlist"
+                                        className="bg-[#2261FE] text-white px-6 py-3 rounded-xl text-lg font-medium hover:bg-blue-700 transition-colors inline-block"
                                     >
                                         Join Waitlist
                                     </a>
@@ -166,16 +168,18 @@ export function HeaderHero() {
                                 <a href="#why-us" className="block px-3 py-2 font-normal text-center" style={{ fontFamily: 'Inter', fontSize: '18px', lineHeight: '150%', color: '#050505BF' }}>
                                     Why Us
                                 </a>
-                                <a href="#contact" className="block px-3 py-2 font-normal text-center" style={{ fontFamily: 'Inter', fontSize: '18px', lineHeight: '150%', color: '#050505BF' }}>
-                                    Contact Us
+                                <a href="#security" className="block px-3 py-2 font-normal text-center" style={{ fontFamily: 'Inter', fontSize: '18px', lineHeight: '150%', color: '#050505BF' }}>
+                                    Security
+                                </a>
+                                <a href="#faq" className="block px-3 py-2 font-normal text-center" style={{ fontFamily: 'Inter', fontSize: '18px', lineHeight: '150%', color: '#050505BF' }}>
+                                    FAQ
                                 </a>
                                 <div className="flex justify-center">
                                     <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="bg-white text-blue-600 border border-blue-600 px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-50 transition-colors inline-block"
+                                        href="#waitlist"
+                                        className="bg-[#2261FE] text-white px-6 py-3 rounded-xl text-lg font-medium hover:bg-blue-700 transition-colors inline-block"
                                     >
-                                        Launch App
+                                        Join Waitlist
                                     </a>
                                 </div>
                             </div>

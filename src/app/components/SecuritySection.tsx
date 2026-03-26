@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export const SecuritySection = () => {
     return (
-        <section className="py-24 bg-[#2261FE] text-white relative overflow-hidden min-h-[1100px]">
+        <section id="security" className="py-24 bg-[#2261FE] text-white relative overflow-hidden min-h-[1100px]">
             {/* Background motif */}
             <div
                 className="absolute pointer-events-none"
@@ -109,10 +109,26 @@ export const SecuritySection = () => {
                                     <div className="mb-0 md:mb-1 flex-shrink-0">
                                         <Image src="/Settlement Partners.svg" alt="Icon" width={75} height={75} className="object-contain responsive-icon" />
                                     </div>
-                                    <h4 className="text-2xl md:text-[28px] font-bold text-[#1C1C1C] leading-none mb-0">Settlement Partners</h4>
+                                    <h4 style={{
+                                        fontFamily: 'Inter, sans-serif',
+                                        fontWeight: 500,
+                                        fontSize: '32px',
+                                        lineHeight: '100%',
+                                        color: '#1C1C1C',
+                                        margin: 0
+                                    }}>
+                                        Settlement Partners
+                                    </h4>
                                 </div>
                                 <div className="w-full md:w-[220px] text-left mt-auto md:mt-0">
-                                    <p className="text-[#3D3D3D] leading-relaxed text-sm md:text-base">
+                                    <p style={{
+                                        fontFamily: "'SF Pro Rounded', system-ui, sans-serif",
+                                        fontWeight: 400,
+                                        fontSize: '20px',
+                                        lineHeight: '100%',
+                                        color: '#5D5D5D',
+                                        margin: 0
+                                    }}>
                                         Direct integration with local payment rails for instant funds.
                                     </p>
                                 </div>
@@ -135,10 +151,26 @@ export const SecuritySection = () => {
                                     <div className="mb-0 md:mb-1 flex-shrink-0">
                                         <Image src="/Bridge Infrastructure.svg" alt="Icon" width={75} height={75} className="object-contain responsive-icon" />
                                     </div>
-                                    <h4 className="text-2xl md:text-[28px] font-bold leading-none mb-0">Bridge Infrastructure</h4>
+                                    <h4 style={{
+                                        fontFamily: 'Inter, sans-serif',
+                                        fontWeight: 500,
+                                        fontSize: '32px',
+                                        lineHeight: '100%',
+                                        color: '#F5F5F5',
+                                        margin: 0
+                                    }}>
+                                        Bridge Infrastructure
+                                    </h4>
                                 </div>
                                 <div className="w-full md:w-[220px] text-left mt-auto md:mt-0">
-                                    <p className="text-white/90 leading-relaxed text-sm md:text-base">
+                                    <p style={{
+                                        fontFamily: "'SF Pro Rounded', system-ui, sans-serif",
+                                        fontWeight: 400,
+                                        fontSize: '20px',
+                                        lineHeight: '100%',
+                                        color: '#E7E7E7',
+                                        margin: 0
+                                    }}>
                                         Robust institutional-grade bridges for maximum liquidity.
                                     </p>
                                 </div>
@@ -161,10 +193,26 @@ export const SecuritySection = () => {
                                     <div className="mb-0 md:mb-1 flex-shrink-0">
                                         <Image src="/Security & Compliance.svg" alt="Icon" width={75} height={75} className="object-contain responsive-icon" />
                                     </div>
-                                    <h4 className="text-2xl md:text-[28px] font-bold text-[#1C1C1C] leading-none mb-0">Security & Compliance</h4>
+                                    <h4 style={{
+                                        fontFamily: 'Inter, sans-serif',
+                                        fontWeight: 500,
+                                        fontSize: '32px',
+                                        lineHeight: '100%',
+                                        color: '#1C1C1C',
+                                        margin: 0
+                                    }}>
+                                        Security & Compliance
+                                    </h4>
                                 </div>
                                 <div className="w-full md:w-[220px] text-left mt-auto md:mt-0">
-                                    <p className="text-[#3D3D3D] leading-relaxed text-sm md:text-base">
+                                    <p style={{
+                                        fontFamily: "'SF Pro Rounded', system-ui, sans-serif",
+                                        fontWeight: 400,
+                                        fontSize: '20px',
+                                        lineHeight: '100%',
+                                        color: '#5D5D5D',
+                                        margin: 0
+                                    }}>
                                         Regulatory-compliant transfers with AML/KYC integrated.
                                     </p>
                                 </div>
