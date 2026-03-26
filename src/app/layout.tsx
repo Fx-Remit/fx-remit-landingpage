@@ -1,10 +1,14 @@
-import type { Metadata } from "next";
-import { Inter, Instrument_Serif } from "next/font/google";
+import { Inter, Instrument_Serif, Montserrat } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+});
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat",
 });
 
 const instrumentSerif = Instrument_Serif({
@@ -25,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${instrumentSerif.variable} antialiased bg-white text-gray-900 transition-colors duration-300`}>
+      <body className={`${inter.variable} ${montserrat.variable} ${instrumentSerif.variable} antialiased bg-white text-gray-900 transition-colors duration-300`}>
         {children}
       </body>
     </html>
