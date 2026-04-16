@@ -108,7 +108,7 @@ export const Footer = () => {
             <footer
                 className="relative footer-container"
                 style={{
-                    height: '829px',
+                    height: '650px',
                     borderTop: '1px solid #00000033',
                     opacity: 1,
                     marginTop: '40px'
@@ -197,17 +197,15 @@ export const Footer = () => {
 
                             {/* Right Side - Links */}
                             <div
-                                className="absolute grid md:grid-cols-2 gap-8 footer-right-section"
+                                className="absolute footer-right-section"
                                 style={{
                                     right: '100px',
                                     top: '80px',
 
                                 }}
                             >
-                                {/* Product Links */}
                                 <div
                                     style={{
-
                                         height: '188px',
                                         gap: '20px',
                                         opacity: 1
@@ -215,7 +213,6 @@ export const Footer = () => {
                                 >
                                     <h3
                                         style={{
-
                                             height: '36px',
                                             fontFamily: 'Inter',
                                             fontWeight: 500,
@@ -227,143 +224,13 @@ export const Footer = () => {
                                             marginBottom: '20px'
                                         }}
                                     >
-                                        Product
+                                        Company
                                     </h3>
                                     <ul className="space-y-3">
                                         <li>
                                             <a
-                                                href="#"
+                                                href="/contact"
                                                 style={{
-
-                                                    height: '27px',
-                                                    fontFamily: 'Inter',
-                                                    fontWeight: 400,
-                                                    fontSize: '18px',
-                                                    lineHeight: '150%',
-                                                    letterSpacing: '0%',
-                                                    textAlign: 'center',
-                                                    color: '#050505BF',
-                                                    opacity: 1,
-                                                    display: 'block'
-                                                }}
-                                            >
-                                                Send money
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="#"
-                                                style={{
-
-
-                                                    fontFamily: 'Inter',
-                                                    fontWeight: 400,
-                                                    fontSize: '18px',
-                                                    lineHeight: '150%',
-                                                    letterSpacing: '0%',
-                                                    textAlign: 'center',
-                                                    color: '#050505BF',
-                                                    opacity: 1,
-                                                    display: 'block'
-                                                }}
-                                            >
-                                                Track transfer
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="#"
-                                                style={{
-
-                                                    height: '27px',
-                                                    fontFamily: 'Inter',
-                                                    fontWeight: 400,
-                                                    fontSize: '18px',
-                                                    lineHeight: '150%',
-                                                    letterSpacing: '0%',
-                                                    textAlign: 'center',
-                                                    color: '#050505BF',
-                                                    opacity: 1,
-                                                    display: 'block'
-                                                }}
-                                            >
-                                                Exchange rates
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="#"
-                                                style={{
-
-                                                    height: '27px',
-                                                    fontFamily: 'Inter',
-                                                    fontWeight: 400,
-                                                    fontSize: '18px',
-                                                    lineHeight: '150%',
-                                                    letterSpacing: '0%',
-                                                    textAlign: 'center',
-                                                    color: '#050505BF',
-                                                    opacity: 1,
-                                                    display: 'block'
-                                                }}
-                                            >
-                                                API
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                {/* Support Links */}
-                                <div
-                                    style={{
-
-                                        height: '188px',
-                                        gap: '20px',
-                                        opacity: 1
-                                    }}
-                                >
-                                    <h3
-                                        style={{
-
-                                            height: '36px',
-                                            fontFamily: 'Inter',
-                                            fontWeight: 500,
-                                            fontSize: '24px',
-                                            lineHeight: '150%',
-                                            letterSpacing: '0%',
-                                            textAlign: 'center',
-                                            opacity: 1,
-                                            marginBottom: '20px'
-                                        }}
-                                    >
-                                        Support
-                                    </h3>
-                                    <ul className="space-y-3">
-                                        <li>
-                                            <a
-                                                href="#"
-                                                style={{
-
-                                                    height: '27px',
-                                                    fontFamily: 'Inter',
-                                                    fontWeight: 400,
-                                                    fontSize: '18px',
-                                                    lineHeight: '150%',
-                                                    letterSpacing: '0%',
-                                                    textAlign: 'center',
-                                                    color: '#050505BF',
-                                                    opacity: 1,
-                                                    display: 'block'
-                                                }}
-                                            >
-                                                Help center
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="#"
-                                                style={{
-
                                                     height: '27px',
                                                     fontFamily: 'Inter',
                                                     fontWeight: 400,
@@ -381,10 +248,8 @@ export const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                href="#"
+                                                href="/privacy"
                                                 style={{
-
-                                                    height: '27px',
                                                     fontFamily: 'Inter',
                                                     fontWeight: 400,
                                                     fontSize: '18px',
@@ -396,14 +261,13 @@ export const Footer = () => {
                                                     display: 'block'
                                                 }}
                                             >
-                                                Security
+                                                Privacy Policy
                                             </a>
                                         </li>
                                         <li>
                                             <a
-                                                href="#"
+                                                href="/terms"
                                                 style={{
-
                                                     height: '27px',
                                                     fontFamily: 'Inter',
                                                     fontWeight: 400,
@@ -416,7 +280,7 @@ export const Footer = () => {
                                                     display: 'block'
                                                 }}
                                             >
-                                                Privacy
+                                                Terms of Service
                                             </a>
                                         </li>
                                     </ul>
@@ -446,7 +310,7 @@ export const Footer = () => {
                 </div>
 
                 {/* Watermark Logo */}
-                <div className="absolute footer-watermark" style={{ left: '484px', top: '850px' }}>
+                <div className="absolute footer-watermark" style={{ left: '484px', top: '550px' }}>
                     <img
                         src="/fx-remit.svg"
                         alt="FX Remit Watermark"

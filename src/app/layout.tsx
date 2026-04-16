@@ -23,6 +23,9 @@ export const metadata: Metadata = {
   description: "Fast, secure, and multi-chain crypto-to-fiat remittances powered by Celo and Paycrest.",
 };
 
+import { WaitlistProvider } from "./context/WaitlistContext";
+import { WaitlistModal } from "./components";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -31,7 +34,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${montserrat.variable} ${instrumentSerif.variable} antialiased bg-white text-gray-900 transition-colors duration-300`}>
-        {children}
+        <WaitlistProvider>
+          {children}
+          <WaitlistModal />
+        </WaitlistProvider>
       </body>
     </html>
   );

@@ -6,3 +6,5 @@ export * from "./Footer";
 export * from './ChainLogos';
 export * from './FAQ';
 export * from './SecuritySection';
+export * from './Navbar';
+export * from './WaitlistModal';

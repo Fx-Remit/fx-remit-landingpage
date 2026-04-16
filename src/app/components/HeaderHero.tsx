@@ -1,9 +1,11 @@
 "use client"
 
 import { useState } from "react"
+import { useWaitlist } from "../context/WaitlistContext"
 
 export function HeaderHero() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
+    const { openWaitlist } = useWaitlist()
 
 
     return (
@@ -116,12 +118,12 @@ export function HeaderHero() {
 
                                 {/* Desktop CTA Button */}
                                 <div>
-                                    <a
-                                        href="#waitlist"
+                                    <button
+                                        onClick={openWaitlist}
                                         className="bg-[#2261FE] text-white px-6 py-3 rounded-xl text-lg font-medium hover:bg-blue-700 transition-colors inline-block"
                                     >
                                         Join Waitlist
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -175,12 +177,12 @@ export function HeaderHero() {
                                     FAQ
                                 </a>
                                 <div className="flex justify-center">
-                                    <a
-                                        href="#waitlist"
+                                    <button
+                                        onClick={openWaitlist}
                                         className="bg-[#2261FE] text-white px-6 py-3 rounded-xl text-lg font-medium hover:bg-blue-700 transition-colors inline-block"
                                     >
                                         Join Waitlist
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -250,13 +252,13 @@ export function HeaderHero() {
 
                         {/* CTA Button */}
                         <div className="pt-2">
-                            <a
-                                href="#waitlist"
+                            <button
+                                onClick={openWaitlist}
                                 className="inline-flex items-center justify-center bg-[#2261FE] text-[#F8F8FF] font-medium text-[18px] px-10 py-5 rounded-xl shadow-lg shadow-blue-500/10 no-underline"
                                 style={{ fontFamily: 'var(--font-inter)' }}
                             >
                                 Start sending money
-                            </a>
+                            </button>
                         </div>
                     </div>
 
