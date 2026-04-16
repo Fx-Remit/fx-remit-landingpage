@@ -18,7 +18,7 @@ export function Navbar() {
                             {/* Logo */}
                             <Link href="/" className="flex items-center flex-shrink-0">
                                 <img
-                                    src="/fx-remit.svg"
+                                    src="/fx-remit-v2.svg"
                                     alt="FX Remit"
                                     className="object-contain"
                                     style={{ width: '122px', height: '26px' }}
@@ -63,7 +63,7 @@ export function Navbar() {
                             {/* Mobile Logo */}
                             <Link href="/" className="flex items-center flex-shrink-0">
                                 <img
-                                    src="/fx-remit.svg"
+                                    src="/fx-remit-v2.svg"
                                     alt="FX Remit"
                                     className="object-contain"
                                     style={{ width: '100px', height: 'auto' }}

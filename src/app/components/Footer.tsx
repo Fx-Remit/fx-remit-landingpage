@@ -170,7 +170,7 @@ export const Footer = () => {
                             >
                                 <div className="flex items-center mb-6">
                                     <img
-                                        src="/fx-remit.svg"
+                                        src="/fx-remit-v2.svg"
                                         alt="FX Remit"
                                         className="h-12 w-auto mr-3"
                                     />
@@ -312,7 +312,7 @@ export const Footer = () => {
                 {/* Watermark Logo */}
                 <div className="absolute footer-watermark" style={{ left: '484px', top: '550px' }}>
                     <img
-                        src="/fx-remit.svg"
+                        src="/fx-remit-v2.svg"
                         alt="FX Remit Watermark"
                         style={{
                             width: '760px',
