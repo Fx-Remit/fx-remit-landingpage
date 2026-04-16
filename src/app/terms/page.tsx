@@ -4,7 +4,7 @@ export default function TermsOfServicePage() {
     return (
         <main className="min-h-screen bg-white flex flex-col font-inter selection:bg-orange-100">
             <Navbar />
-            
+
             <section className="pt-40 pb-20 bg-[#F5F5F5] rounded-b-[3rem] px-6">
                 <div className="container mx-auto max-w-4xl text-center">
                     <h1 className="text-[40px] md:text-[64px] font-bold text-[#1C1C1C] leading-tight mb-6 mt-10">
@@ -28,7 +28,7 @@ export default function TermsOfServicePage() {
                                 By accessing our platform, you agree to be bound by these Terms of Service and to comply with all applicable laws and regulations. If you disagree with any portion of these terms, you are prohibited from using our services.
                             </p>
                         </div>
-                        
+
                         <div>
                             <h2 className="text-[28px] font-semibold text-[#1C1C1C] mb-4">2. Use License</h2>
                             <p className="text-[18px]">
