@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link"
 
 export const Footer = () => {
     return (
@@ -128,7 +129,7 @@ export const Footer = () => {
                         }}
                     >
                         {/* Background Pattern - Inside Section */}
-                        <div className="absolute inset-0 overflow-hidden">
+                        <div className="absolute inset-0 overflow-hidden pointer-events-none">
                             <img
                                 src="/blend 2.svg"
                                 alt="Background pattern"
@@ -228,7 +229,7 @@ export const Footer = () => {
                                     </h3>
                                     <ul className="space-y-3">
                                         <li>
-                                            <a
+                                            <Link
                                                 href="/contact"
                                                 style={{
                                                     height: '27px',
@@ -244,10 +245,10 @@ export const Footer = () => {
                                                 }}
                                             >
                                                 Contact us
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a
+                                            <Link
                                                 href="/privacy"
                                                 style={{
                                                     fontFamily: 'Inter',
@@ -262,10 +263,10 @@ export const Footer = () => {
                                                 }}
                                             >
                                                 Privacy Policy
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a
+                                            <Link
                                                 href="/terms"
                                                 style={{
                                                     height: '27px',
@@ -281,7 +282,7 @@ export const Footer = () => {
                                                 }}
                                             >
                                                 Terms of Service
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -310,7 +311,7 @@ export const Footer = () => {
                 </div>
 
                 {/* Watermark Logo */}
-                <div className="absolute footer-watermark" style={{ left: '484px', top: '550px' }}>
+                <div className="absolute footer-watermark pointer-events-none" style={{ left: '484px', top: '550px' }}>
                     <img
                         src="/fx-remit-v2.svg"
                         alt="FX Remit Watermark"

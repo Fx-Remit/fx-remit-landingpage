@@ -70,7 +70,7 @@ export function HeaderHero() {
                     }
                     .hero-image-container {
                         top: 577px;
-                        left: -33px;
+                        left: -40px;
                     }
                 }
             `}</style>
