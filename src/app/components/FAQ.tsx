@@ -76,7 +76,7 @@ export const FAQ = () => {
                         <div className={`px-[60px] pb-[41px] pt-8 transition-opacity duration-300 ${open02 ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
                             <div className="h-[1px] w-full max-w-[966px] bg-[#F6F6F6] mb-4"></div>
                             <p className="answer-text text-[#E7E7E7] text-[16px] leading-[120%] font-normal font-montserrat max-w-[966px]">
-                                No. Sign in with email or your preferred login — we create a secure wallet for you. No extensions or seed phrases required.
+                                No. Sign in with email or your preferred login, we create a secure wallet for you. No extensions or seed phrases required.
                             </p>
                         </div>
                     </div>
