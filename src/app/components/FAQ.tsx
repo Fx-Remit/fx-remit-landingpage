@@ -66,7 +66,7 @@ export const FAQ = () => {
                         <div className="card-header h-[100px] flex items-center justify-between px-[60px] py-[41px]">
                             <div className="flex items-center gap-10 card-title-alt">
                                 <span className="number-text text-[#F6F6F6] text-[48px] leading-[120%] font-bold">02</span>
-                                <span className="question-text text-[#F6F6F6] text-[24px] leading-[120%] font-bold">Which wallets are supported?</span>
+                                <span className="question-text text-[#F6F6F6] text-[24px] leading-[120%] font-bold">Do I need a crypto wallet?</span>
                             </div>
                             <div className="toggle-icon w-[48px] h-[48px] rounded-full bg-[#F6F6F6] flex items-center justify-center relative flex-shrink-0">
                                 <div className={`absolute w-[2.5px] h-[20px] bg-[#1C1C1C] rounded-full transition-all duration-300 ${open02 ? 'opacity-0 scale-y-0' : 'opacity-100 scale-y-100'}`}></div>
@@ -76,7 +76,7 @@ export const FAQ = () => {
                         <div className={`px-[60px] pb-[41px] pt-8 transition-opacity duration-300 ${open02 ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
                             <div className="h-[1px] w-full max-w-[966px] bg-[#F6F6F6] mb-4"></div>
                             <p className="answer-text text-[#E7E7E7] text-[16px] leading-[120%] font-normal font-montserrat max-w-[966px]">
-                                We support 50+ wallets including MetaMask, Phantom, Trust wallet, MiniPay, Farcarster and many more. Both browser extensions and mobile wallets work seamlessly with our platform.
+                                No. Sign in with email or your preferred login — we create a secure wallet for you. No extensions or seed phrases required.
                             </p>
                         </div>
                     </div>

@@ -196,10 +196,10 @@ export function HeaderHero() {
 
                     {/* Left Column: Text Content */}
                     <div className="hero-text-container">
-                        {/* Live on Celo Mainnet Badge */}
+                        {/* Crypto to local cash Badge */}
                         <div className="hero-badge self-start px-4 py-1.5 mb-4">
                             <span className="text-orange-400 text-sm font-semibold whitespace-nowrap">
-                                Live on Celo Mainnet
+                                Crypto to local cash
                             </span>
                         </div>
 
@@ -246,8 +246,8 @@ export function HeaderHero() {
                                 fontWeight: 400
                             }}
                         >
-                            Send crypto directly to bank accounts and mobile money in 20+ countries. <br />
-                            Experience sub-5 minute settlements and ultra-low fees across all major blockchains.
+                            Send crypto straight to bank accounts and mobile money. <br />
+                            Most payouts complete in minutes — transparent fees, local cash-out.
                         </p>
 
                         {/* CTA Button */}
