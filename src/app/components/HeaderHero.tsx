@@ -247,7 +247,7 @@ export function HeaderHero() {
                             }}
                         >
                             Send crypto straight to bank accounts and mobile money. <br />
-                            Most payouts complete in minutes — transparent fees, local cash-out.
+                            Most payouts complete in minutes, transparent fees, local cash-out.
                         </p>
 
                         {/* CTA Button */}
