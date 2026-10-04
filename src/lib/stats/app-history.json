@@ -1,0 +1,6 @@
+[
+ { "at": "2026-07-18T20:22:13.000Z", "txHash": "0x439e5f8c9f6657df9df83f26f3237eefb856ab9110776c158d19455b1be73f37", "chain": "base", "amountUsd": 1,    "corridor": "USDC-bank",   "userKey": "0x376665538f584ee62d41c8f39da10266e0333a51" },
+ { "at": "2026-09-01T12:36:53.000Z", "txHash": "0xf708703a287f1eb48b624ca4b6b5ea80ec0cffde6bed9b0742dcafb026ecadca", "chain": "base", "amountUsd": 1,    "corridor": "USDC-bank",   "userKey": "0x376665538f584ee62d41c8f39da10266e0333a51" },
+ { "at": "2026-09-02T09:56:41.000Z", "txHash": "0xbddda861c5eed2ca9992dca4df57b97e410c71f51ad0a32e6af64478cf5b973f", "chain": "base", "amountUsd": 1,    "corridor": "USDC-bank",   "userKey": "0x376665538f584ee62d41c8f39da10266e0333a51" },
+ { "at": "2026-09-04T21:30:51.000Z", "txHash": "0xcaef8cb630a1000cf0e4572987ec7e1f672f51422ee7e7d6558c4d625c82bf18", "chain": "base", "amountUsd": 0.55, "corridor": "USDC-wallet", "userKey": "0x376665538f584ee62d41c8f39da10266e0333a51" }
+]
