@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Link from "next/link"
 import { useWaitlist } from "../context/WaitlistContext"
 
 export function HeaderHero() {
@@ -114,6 +115,9 @@ export function HeaderHero() {
                                     <a href="#faq" className="font-normal text-center" style={{ fontFamily: 'Inter', fontSize: '18px', lineHeight: '150%', color: '#050505BF' }}>
                                         FAQ
                                     </a>
+                                    <Link href="/stats" className="font-normal text-center" style={{ fontFamily: 'Inter', fontSize: '18px', lineHeight: '150%', color: '#050505BF' }}>
+                                        Stats
+                                    </Link>
                                 </nav>
 
                                 {/* Desktop CTA Button */}
@@ -176,6 +180,9 @@ export function HeaderHero() {
                                 <a href="#faq" className="block px-3 py-2 font-normal text-center" style={{ fontFamily: 'Inter', fontSize: '18px', lineHeight: '150%', color: '#050505BF' }}>
                                     FAQ
                                 </a>
+                                <Link href="/stats" className="block px-3 py-2 font-normal text-center" style={{ fontFamily: 'Inter', fontSize: '18px', lineHeight: '150%', color: '#050505BF' }}>
+                                    Stats
+                                </Link>
                                 <div className="flex justify-center">
                                     <button
                                         onClick={openWaitlist}

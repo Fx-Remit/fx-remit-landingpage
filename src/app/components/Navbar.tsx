@@ -39,6 +39,9 @@ export function Navbar() {
                                 <Link href="/#faq" className="font-normal text-center" style={{ fontFamily: 'var(--font-inter)', fontSize: '18px', lineHeight: '150%', color: '#050505BF' }}>
                                     FAQ
                                 </Link>
+                                <Link href="/stats" className="font-normal text-center" style={{ fontFamily: 'var(--font-inter)', fontSize: '18px', lineHeight: '150%', color: '#050505BF' }}>
+                                    Stats
+                                </Link>
                             </nav>
 
                             {/* Desktop CTA Button */}
@@ -100,6 +103,9 @@ export function Navbar() {
                             </Link>
                             <Link href="/#faq" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 font-normal text-center" style={{ fontFamily: 'var(--font-inter)', fontSize: '18px', lineHeight: '150%', color: '#050505BF' }}>
                                 FAQ
+                            </Link>
+                            <Link href="/stats" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 font-normal text-center" style={{ fontFamily: 'var(--font-inter)', fontSize: '18px', lineHeight: '150%', color: '#050505BF' }}>
+                                Stats
                             </Link>
                             <div className="flex justify-center mt-4">
                                 <button
