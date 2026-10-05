@@ -20,20 +20,12 @@ const logos = [
         mobileHeight: 24.17
     },
     {
-        src: '/eth.svg',
-        alt: 'Ethereum',
-        width: 59,
-        height: 96,
-        mobileWidth: 35.19,
-        mobileHeight: 58
-    },
-    {
-        src: '/solana.svg',
-        alt: 'Solana',
-        width: 165,
-        height: 30,
-        mobileWidth: 99.14,
-        mobileHeight: 18.51
+        src: '/arb.svg',
+        alt: 'Arbitrum',
+        width: 50,
+        height: 56,
+        mobileWidth: 30.5,
+        mobileHeight: 34.4
     },
 ];
 
@@ -45,11 +37,13 @@ export const ChainLogos = () => {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-                    width: 1340px;
+                    width: 100%;
+                    max-width: 1000px;
                     height: 96px;
                     opacity: 0.6;
                     margin-top: 60px;
-                    margin-left: 191px;
+                    margin-left: auto;
+                    margin-right: auto;
                 }
                 .logo-wrapper {
                     --logo-size-w: var(--logo-width);

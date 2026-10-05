@@ -96,7 +96,7 @@ export const WhyChooseFx = () => {
                                         color: '#5D5D5D',
                                         margin: 0
                                     }}>
-                                        Send from Ethereum, Solana, Celo, Base and many more.
+                                        Send from Celo, Base, Arbitrum and many more.
                                     </p>
                                 </div>
                             </div>
